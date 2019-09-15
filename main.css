@@ -1,0 +1,154 @@
+html{
+    scroll-behavior: smooth ;
+    margin: 0px ;
+}
+.main{
+    display: grid;
+    grid-template-rows: .35fr .15fr 1fr .5fr .25fr ;
+    margin: 0px ;
+}
+.title{
+    padding: 20px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    background: #1f2833;
+    color: white ;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.btn-lg{
+    margin: 20px ;
+    background-color: #192029  !important;
+    border: none !important ;
+    color: #fff ;
+}
+.btn-lg:hover{
+    box-shadow:2px 2px 4px black !important ;
+    border: none !important ;
+}
+#title-name{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px ;
+}
+#main-img{
+    width: 20% ;
+    height: auto ;
+    align-self: center ;
+}
+.pname{
+    padding: 20px ;
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    background: #379683;
+    color: #fff ;
+}
+.form-control:hover{
+    box-shadow: 3px 5px 10px #333 ;
+    
+}
+.game{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    background:#05386b  ;
+    color: white ;
+    height: 100%;
+}
+.table{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    background: #66fcf1;
+    height: 100%;
+    padding: 10px;
+}
+.share{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    background: #379683 ;
+    height: 100%;
+
+}
+.main-game{
+    margin: 20px ;
+    display: grid ;
+    grid-template-rows: 1fr 1fr 1fr ;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+#game-background{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    border-radius : 10px !important;
+    width : 80% ;
+    margin:20px !important; 
+    background:#1f2833 ;
+    background-color: #e4e4e4 ;
+    color: #1f2833 ;
+} 
+.main-game > button{
+    width: 60px ;
+    height: 60px ;
+    margin : 2px ;
+    text-align: center ;
+    text-justify: center ;
+    background-color:#05386b  ;
+    border-radius: 10px;
+    color: #fff ;
+    font-size: 30px ;
+}
+.main-game > button:hover{
+    box-shadow: 2px 5px 10px #333 ;
+}
+.table{
+    display: grid ;
+    justify-content: center ;
+    align-content: center ;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 2fr ;
+    background-color:#1f2833;
+    
+}
+#result{
+    border-top: 5px solid #1f2833 ;
+    grid-column : 1/3 ;
+    font-size: 50px ;
+    color: #fff ;
+    border-top:5px solid #fff ;
+    
+}
+.table > div,h4{
+    display: flex ;
+    flex-direction: column ;
+    justify-content: center ;
+    align-items: center ;
+    height: 100%;
+    margin: 0px ;
+    color: #fff ;
+}
+#desc{
+    text-align: center ;
+}
+@media(min-width:1000px){
+    .main{
+        display: grid;
+        grid-template-rows: 7.5fr 1fr 2.5fr ;
+        grid-template-columns: 1fr 1fr ;
+        height: 100vh ;
+    }
+    .share{
+        grid-column: 1/3 ;
+    
+    }
+
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text"  id="name1">
+    <input type="text" id="name2">
+    <button id="submit">submit</button>
+    <h1 id="h1">value1</h1>
+    <h1 id="h2">value2</h1>
+<script>
+        const btn =  document.getElementById("submit")
+        const h1 = document.getElementById("h1")
+        const h2 = document.getElementById("h2")
+        var counter = 0 
+        function displayName(){
+            const val1 = document.getElementById("name1")
+            const val2 = document.getElementById("name2")
+            counter = counter + 1 ;
+            console.log("working")
+            console.log(counter)
+        }
+        btn.addEventListener("click",displayName) ;
+
+        </script>
+</body>
+</html>
